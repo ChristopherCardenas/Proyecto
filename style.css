@@ -1,0 +1,120 @@
+body{
+    background-image: url(https://i.pinimg.com/564x/75/39/43/7539431044cea967ff45b9fe050e3c0e.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+
+}
+
+header{
+    /*para separar de izquierda y derecha */
+    /*
+    box-shadow: 0 0 30px 0 black;
+    */
+    display: flex;
+    background-color: rgba(179, 237, 252, 0.568);
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    border-radius: 100px;
+    padding: 50px;
+    width: 700px;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+}
+
+.izquierda{
+    width: 50%;
+}
+
+.derecha{
+    box-shadow: 0 0 10px 0 black;
+    background-color: rgba(255, 255, 255, 0.752);
+    width: 350px;
+    border-radius: 15px;
+    margin-left: 30px;
+
+    
+}
+
+img{
+padding: 10px;
+}
+
+.bienvenido{
+    font-size: 30px;
+    margin-right: 50px;
+    margin-top: -5px;
+}
+
+input{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.555);
+    width: 230px;
+    margin: 10px;
+    padding: 9px;
+    border: none;
+    border-bottom: 2px solid rgb(165, 165, 165);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+button{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background-color: rgba(4, 94, 8, 0.555);
+    width: 280px;
+    margin: 10px;
+    padding: 9px;
+    border: none;
+    border-bottom: 2px solid rgb(165, 165, 165);
+    border-radius: 50px;
+}
+
+.gmail{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.contra{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.enviar{
+    padding: 15px;
+
+}
+
+.sesion{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    padding: 5px;
+    margin-right:30px ;
+    font-size: 18px;
+    
+}
+
+.mensaje1{
+    font-size: 25px;
+    margin: 25px;
+    /*
+    text-align: left;
+    */
+}
+
+.mensaje2{
+    font-size: 18px;
+    margin: 25px;
+    /*
+    text-align: left;
+    */
+}
+
+.derechos{
+    font-size: 18px;
+    margin-top: 15px;
+}
